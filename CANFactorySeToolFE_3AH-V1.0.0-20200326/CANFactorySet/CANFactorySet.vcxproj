@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{39995F07-82FB-4D71-A107-74438CCEBAA3}</ProjectGuid>
+    <RootNamespace>CANFactorySet</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Users\Administrator.PCOS-1703061243\Desktop\项目\CAN\CANFactorySet\CANFactorySet;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ECanVci.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Administrator.PCOS-1703061243\Desktop\项目\CAN\CANFactorySet\CANFactorySet\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>ECanVci.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\BDBK.bmp" />
+    <None Include="res\bin00001.bin" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\CANFactorySet.ico" />
+    <None Include="res\CANFactorySet.rc2" />
+    <None Include="res\Clear.ico" />
+    <None Include="res\help.docx" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\JUICEON.ico" />
+    <None Include="res\ledoff.ico" />
+    <None Include="res\ledon.ico" />
+    <None Include="res\LED_BLUEOFF.ico" />
+    <None Include="res\LED_BLUEON.ico" />
+    <None Include="res\led_OrangeOff.ico" />
+    <None Include="res\led_OrangeOn.ico" />
+    <None Include="res\save.ico" />
+    <None Include="res\wordfile.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackgroundUtil.h" />
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="BkDialog.h" />
+    <ClInclude Include="BtnST.h" />
+    <ClInclude Include="CANFactorySet.h" />
+    <ClInclude Include="CANFactorySetDlg.h" />
+    <ClInclude Include="CANSend.h" />
+    <ClInclude Include="CeXDib.h" />
+    <ClInclude Include="ConfigurationManager.h" />
+    <ClInclude Include="ECanVci.H" />
+    <ClInclude Include="Error.h" />
+    <ClInclude Include="ExceptFrameFixer.h" />
+    <ClInclude Include="FileFolderUtil.h" />
+    <ClInclude Include="IniHelper.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="MyDialogEx.h" />
+    <ClInclude Include="MyTabCtrl.h" />
+    <ClInclude Include="PASS.h" />
+    <ClInclude Include="PasswordVerifyDialog.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ShadeButtonST.h" />
+    <ClInclude Include="StartupDialog.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestInformationConfigurationDialog.h" />
+    <ClInclude Include="Version.h" />
+    <ClInclude Include="VersionInformationConfigurationDialog.h" />
+    <ClInclude Include="VerticalStatic.h" />
+    <ClInclude Include="WinXPButtonST.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackgroundUtil.cpp" />
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="BkDialog.cpp" />
+    <ClCompile Include="BtnST.cpp" />
+    <ClCompile Include="CANFactorySet.cpp" />
+    <ClCompile Include="CANFactorySetDlg.cpp" />
+    <ClCompile Include="CANSend.cpp" />
+    <ClCompile Include="CeXDib.cpp" />
+    <ClCompile Include="ConfigurationManager.cpp" />
+    <ClCompile Include="Error.cpp" />
+    <ClCompile Include="ExceptFrameFixer.cpp" />
+    <ClCompile Include="FileFolderUtil.cpp" />
+    <ClCompile Include="IniHelper.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MyDialogEx.cpp" />
+    <ClCompile Include="MyTabCtrl.cpp" />
+    <ClCompile Include="PASS.cpp" />
+    <ClCompile Include="PasswordVerifyDialog.cpp" />
+    <ClCompile Include="ShadeButtonST.cpp" />
+    <ClCompile Include="StartupDialog.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TestInformationConfigurationDialog.cpp" />
+    <ClCompile Include="Version.cpp" />
+    <ClCompile Include="VersionInformationConfigurationDialog.cpp" />
+    <ClCompile Include="VerticalStatic.cpp" />
+    <ClCompile Include="WinXPButtonST.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CANFactorySet.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="CANFactorySet.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

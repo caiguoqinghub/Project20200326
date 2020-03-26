@@ -1,0 +1,50 @@
+﻿生成启动时间为 2020/3/26 16:59:13。
+     1>项目“H:\FactorySetting\FE_3AH\CANFactorySeToolFE_3AH-V1.0.0-20200326\CANFactorySet\CANFactorySet.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\CANFactorySet.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         C:\Windows\system32\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\CANFactorySet.res" CANFactorySet.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\FactorySetting\FE_3AH\CANFactorySeToolFE_3AH-V1.0.0-20200326\Release\CANFactorySet.exe" /INCREMENTAL:NO /NOLOGO ECanVci.lib /MANIFEST /ManifestFile:"Release\CANFactorySet.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\FactorySetting\FE_3AH\CANFactorySeToolFE_3AH-V1.0.0-20200326\Release\CANFactorySet.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\FactorySetting\FE_3AH\CANFactorySeToolFE_3AH-V1.0.0-20200326\Release\CANFactorySet.lib" /MACHINE:X86 Release\CANFactorySet.res
+         Release\BackgroundUtil.obj
+         Release\BCMenu.obj
+         Release\BkDialog.obj
+         Release\BtnST.obj
+         Release\CANFactorySet.obj
+         Release\CANFactorySetDlg.obj
+         Release\CANSend.obj
+         Release\CeXDib.obj
+         Release\ConfigurationManager.obj
+         Release\Error.obj
+         Release\ExceptFrameFixer.obj
+         Release\FileFolderUtil.obj
+         Release\IniHelper.obj
+         Release\Main.obj
+         Release\MyDialogEx.obj
+         Release\MyTabCtrl.obj
+         Release\PASS.obj
+         Release\PasswordVerifyDialog.obj
+         Release\ShadeButtonST.obj
+         Release\StartupDialog.obj
+         Release\stdafx.obj
+         Release\TestInformationConfigurationDialog.obj
+         Release\Version.obj
+         Release\VersionInformationConfigurationDialog.obj
+         Release\VerticalStatic.obj
+         Release\WinXPButtonST.obj
+         正在生成代码
+         已完成代码的生成
+         CANFactorySet.vcxproj -> H:\FactorySetting\FE_3AH\CANFactorySeToolFE_3AH-V1.0.0-20200326\Release\CANFactorySet.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\FactorySetting\FE_3AH\CANFactorySeToolFE_3AH-V1.0.0-20200326\Release\CANFactorySet.exe;#1" /manifest Release\CANFactorySet.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\CANFactorySet.unsuccessfulbuild”。
+         正在对“Release\CANFactorySet.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\FactorySetting\FE_3AH\CANFactorySeToolFE_3AH-V1.0.0-20200326\CANFactorySet\CANFactorySet.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.95
